@@ -161,18 +161,18 @@
   #define X_CS_PIN                         P1_10
 #endif
 
-#define Y_STEP_PIN                         P0_19
-#define Y_DIR_PIN                          P0_20
-#define Y_ENABLE_PIN                       P2_08
+#define Y_STEP_PIN                         P0_22
+#define Y_DIR_PIN                          P2_11
+#define Y_ENABLE_PIN                       P0_21
 #ifndef Y_CS_PIN
-  #define Y_CS_PIN                         P1_09
+  #define Y_CS_PIN                         P1_08
 #endif
 
-#define Z_STEP_PIN                         P0_22
-#define Z_DIR_PIN                          P2_11
-#define Z_ENABLE_PIN                       P0_21
+#define Z_STEP_PIN                         P0_19
+#define Z_DIR_PIN                          P0_20
+#define Z_ENABLE_PIN                       P2_08
 #ifndef Z_CS_PIN
-  #define Z_CS_PIN                         P1_08
+  #define Z_CS_PIN                         P1_09
 #endif
 
 #define E0_STEP_PIN                        P2_13
